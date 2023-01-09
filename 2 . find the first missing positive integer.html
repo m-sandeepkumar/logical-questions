@@ -1,0 +1,22 @@
+<html>
+<body>
+<script>
+let first;
+let Arr =[-1,2,0,2,3,6,5];
+let newArr=[];
+for(let i=0;i<Arr.length;i++){
+if(Arr[i]>0){
+newArr.push(Arr[i]);
+}
+}
+
+for(let j=0; j<Arr.length; j++){
+if(Arr[j] != j+1){
+first=j+1;
+break;
+}
+}
+console.log(first);
+</script>
+</body>
+</html>
